@@ -5,6 +5,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #000;
+}
+
+html{
+  scroll-snap-type: y mandatory;
+}
+
+.App {
+  display: grid;
+  place-items: center;
+  background-color: #000;
+  height: 100%;
+  overflow: hidden;
 }
 
 code {

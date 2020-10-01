@@ -1,0 +1,16 @@
+.Home {
+	position: fixed;
+top: 0;
+  height: 90%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	width: 100vw;
+	max-width: 500px;
+  scroll-snap-type: y mandatory;
+  background-color: transparent;
+}
+
+.Home::-webkit-scrollbar {
+	display: none;
+	overflow-x: hidden;
+}

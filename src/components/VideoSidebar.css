@@ -1,0 +1,44 @@
+.VideoSidebar {
+	background-color: rgba(175, 38, 38, 0);
+	max-height: 100%;
+	width: 20vw;
+    z-index: 500;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.VideoSidebar__button {
+	margin-bottom: 30px;
+	margin-right: 20px;
+	margin-left: auto;
+	height: 40px !important;
+	width: 40px !important;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white !important;
+}
+
+.VideoSidebar__albumLogo {
+	animation: spinTheAlbumLogo infinite 10s linear;
+	clip-path: circle();
+	width: 50px !important;
+	height: 50px !important;
+	margin-left: auto;
+	margin-bottom: 15px;
+	margin-right: 20px;
+	margin-top: 28px;
+}
+
+@keyframes spinTheAlbumLogo {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
